@@ -1,0 +1,1 @@
+import{w as a,x as t,y as n,z as r,a as s}from"./chunk-AYJ5UCUI--q-cutD_.js";function e(e){return function(){const o={params:r(),loaderData:n(),actionData:t(),matches:a()};return s.createElement(e,o)}}export{e as w};
