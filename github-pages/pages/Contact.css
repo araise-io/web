@@ -7,7 +7,6 @@ body {
   min-height: 100vh;
   background: url('../assets/back.png') no-repeat center center;
   background-size: cover;
-  background-attachment: fixed; /* Ensure consistent rendering */
 }
 
 body::before {
@@ -17,8 +16,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  /* Adjusted overlay color to better align with back.png */
-  background: rgba(255, 255, 255, 0.65); /* Reduced opacity for better alignment */
+  background: rgba(255, 255, 255, 0.80);
+  opacity: 1;
   z-index: 0;
 }
 
@@ -29,7 +28,7 @@ body::before {
 }
 
 #contact-content h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   background: var(--bs-gradient-dark);
   background-clip: text;
@@ -37,8 +36,8 @@ body::before {
 }
 
 #contact-content p {
-  font-size: 1.1rem;
-  color: #002f4b;
+  font-size: 1.2rem;
+  color: #555;
 }
 
 #contact-form h1 {
